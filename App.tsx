@@ -29,6 +29,5 @@ const styles = StyleSheet.create({
     backgroundColor: "#13111a",
     alignItems: "center",
     justifyContent: "center",
-    lineHeight: 1.4,
   },
 });

@@ -12,5 +12,6 @@ const styles = StyleSheet.create({
   description: {
     color: "#b7b4c7",
     fontSize: 20,
+    marginBottom: 28,
   },
 });

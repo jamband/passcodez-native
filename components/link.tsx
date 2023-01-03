@@ -28,5 +28,6 @@ const styles = StyleSheet.create({
   link: {
     color: "#94c1f2",
     fontSize: 24,
+    marginBottom: 8,
   },
 });

@@ -10,5 +10,6 @@ const styles = StyleSheet.create({
     width: "60%",
     borderBottomColor: "#5a5665",
     borderBottomWidth: StyleSheet.hairlineWidth,
+    marginVertical: "3%",
   },
 });
