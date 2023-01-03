@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 
-export const Divider = () => {
+export const Divider: React.FC = () => {
   return <View style={styles.divider} />;
 };
 
