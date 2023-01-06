@@ -3,9 +3,6 @@
   "main": "src/app.tsx",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
     "test": "jest -i",
     "test:cov": "jest -i --coverage",
     "lint": "eslint .",
