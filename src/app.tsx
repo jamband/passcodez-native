@@ -1,24 +1,34 @@
 import { registerRootComponent } from "expo";
 import { StatusBar } from "expo-status-bar";
+// import { useState } from "react";
 import { StyleSheet, View } from "react-native";
+import { Code } from "./components/code";
 import { Description } from "./components/description";
-import { Divider } from "./components/divider";
-import { Link } from "./components/link";
-import { Title } from "./components/title";
+import { Number } from "./components/number";
+import { PressedCode } from "./components/pressed-code";
 
 export default function App() {
+  // const [code, setCode] = useState("0000");
+
   return (
     <View style={styles.container}>
-      <Title>tomoki morita</Title>
-      <Description>web developer</Description>
-      <Link url="https://jamband.github.io/about/">about me</Link>
-      <Link url="https://jamband.github.io/blog/">blog</Link>
-      <Link url="https://github.com/jamband">github</Link>
-      <Link url="https://zenn.dev/jamband">zenn</Link>
-      <Divider />
-      <Link url="https://plusarchive.com">plusarchive</Link>
-      <Link url="https://jamband.github.io/tapes/">tapes</Link>
-      <Link url="https://jamband.github.io/denene/">denene</Link>
+      <Description>Please enter the code below</Description>
+      <View style={styles.code}>
+        <Code />
+        <PressedCode code="0000" />
+      </View>
+      <View style={styles.numberContainer}>
+        <Number number="0" />
+        <Number number="1" />
+        <Number number="2" />
+        <Number number="3" />
+        <Number number="4" />
+        <Number number="5" />
+        <Number number="6" />
+        <Number number="7" />
+        <Number number="8" />
+        <Number number="9" />
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -30,6 +40,15 @@ const styles = StyleSheet.create({
     backgroundColor: "#13111a",
     alignItems: "center",
     justifyContent: "center",
+  },
+  numberContainer: {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "center",
+  },
+  code: {
+    flexDirection: "row",
+    marginBottom: 20,
   },
 });
 
