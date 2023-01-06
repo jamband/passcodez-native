@@ -1,23 +1,15 @@
 {
   "root": true,
-  "env": {
-    "node": true,
-    "es2020": true
-  },
+  "env": {},
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "@react-native",
     "prettier"
   ],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
   "rules": {
-    "react/prop-types": "off",
     "react/react-in-jsx-scope": "off"
   }
 }
