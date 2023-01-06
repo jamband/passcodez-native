@@ -12,13 +12,13 @@
     "clean": "node scripts/clean.mjs"
   },
   "dependencies": {
-    "expo": "~47.0.9",
-    "expo-status-bar": "~1.4.2",
+    "expo": "^47.0.11",
+    "expo-status-bar": "^1.4.2",
     "react": "18.1.0",
     "react-native": "0.70.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.20.12",
     "@tsconfig/react-native": "^2.0.3",
     "@types/react": "^18.0.26",
     "@types/react-native": "^0.70.8",
