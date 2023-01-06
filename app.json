@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "foo",
-    "slug": "foo",
-    "version": "1.0.0",
+    "name": "creepz",
+    "slug": "creepz",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#13111a"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,7 +21,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#13111A"
       }
     },
     "web": {
