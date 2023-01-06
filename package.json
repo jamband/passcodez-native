@@ -1,6 +1,6 @@
 {
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "src/app.tsx",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -24,6 +24,7 @@
     "@types/react-native": "^0.70.8",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-react": "^7.31.11",

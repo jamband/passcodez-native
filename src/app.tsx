@@ -1,3 +1,4 @@
+import { registerRootComponent } from "expo";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import { Description } from "./components/description";
@@ -31,3 +32,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+registerRootComponent(App);
