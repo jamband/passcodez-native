@@ -1,4 +1,6 @@
 {
+  "name": "passcodez",
+  "version": "0.1.0",
   "private": true,
   "main": "src/app.tsx",
   "scripts": {
