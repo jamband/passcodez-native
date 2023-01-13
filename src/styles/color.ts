@@ -1,0 +1,21 @@
+export const state50 = "248, 250, 252";
+export const state100 = "241, 245, 249";
+export const state200 = "226, 232, 240";
+export const state300 = "203, 213, 225";
+export const state400 = "148, 163, 184";
+export const state500 = "100, 116, 139";
+export const state600 = "71, 85, 105";
+export const state700 = "51, 65, 85";
+export const state800 = "30, 41, 59";
+export const state900 = "15, 23, 42";
+
+export const sky50 = "240, 249, 255";
+export const sky100 = "224, 242, 254";
+export const sky200 = "186, 230, 253";
+export const sky300 = "125, 211, 252";
+export const sky400 = "56, 189, 248";
+export const sky500 = "14, 165, 233";
+export const sky600 = "2, 132, 199";
+export const sky700 = "3, 105, 161";
+export const sky800 = "7, 89, 133";
+export const sky900 = "12, 74, 110";
