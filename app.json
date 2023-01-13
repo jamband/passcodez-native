@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "creepz",
-    "slug": "creepz",
+    "name": "passcodez",
+    "slug": "passcodez",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
