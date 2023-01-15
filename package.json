@@ -5,6 +5,7 @@
   "main": "src/app.tsx",
   "scripts": {
     "start": "expo start",
+    "preview:ios": "eas build -p ios --profile preview",
     "test": "jest -i",
     "test:cov": "jest -i --coverage",
     "lint": "eslint .",
@@ -31,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "babel-plugin-module-resolver": "^5.0.0",
+    "dotenv": "^16.0.3",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-react": "^7.32.0",
