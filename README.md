@@ -34,7 +34,7 @@ when local preview environment:
 
 download the app for preview from the URL below:
 
-- wip
+- https://expo.dev/artifacts/eas/fzLazdUMzJ8h5hFUDD3h7B.tar.gz
 
 Please refer to the link below:
 
