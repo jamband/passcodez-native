@@ -17,14 +17,14 @@ when local development environment:
 - requirements:
   - Expo Go (iOS / Android)
   - XCode iOS Simulator (option)
-  - Yarn
+  - pnpm
 
 ```
 cd /path/to/somewhere
 git clone git@github.com:jamband/passcodez-native.git
 cd passcodez-native
-yarn
-yarn start
+pnpm i
+pnpm start
 ```
 
 when local preview environment:
