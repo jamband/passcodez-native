@@ -34,7 +34,7 @@ when local preview environment:
 
 download the app for preview from the URL below:
 
-- https://expo.dev/artifacts/eas/fzLazdUMzJ8h5hFUDD3h7B.tar.gz
+- https://expo.dev/artifacts/eas/5XKgeHVxaQekxV3cQikMHU.tar.gz ([fd9e23b](https://github.com/jamband/passcodez-native/commit/fd9e23bbe8817dc62db7753f1ad8a31b2347b45e))
 
 Please refer to the link below:
 
