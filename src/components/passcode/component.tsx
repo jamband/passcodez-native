@@ -6,20 +6,17 @@ import type { _Props } from "./types";
 export const Component: React.FC<_Props> = (props) => (
   <View style={styles.container}>
     {[...Array(PASSCODE_LENGTH)].map((_, index) => (
-      <View key={index} style={styles.passcode}>
-        <Text style={styles.number}>{props.passcode[index]}</Text>
-      </View>
+      <Text key={index} style={styles.number}>
+        {props.passcode[index]}
+      </Text>
     ))}
   </View>
 );
 
 const styles = StyleSheet.create({
   container: {
-    display: "flex",
     flexDirection: "row",
-  },
-  passcode: {
-    marginHorizontal: 5,
+    gap: 10,
   },
   number: {
     color: `rgb(${state600})`,

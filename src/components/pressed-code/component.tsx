@@ -21,15 +21,13 @@ export const Component: React.FC<_Props> = (props) => (
 
 const styles = StyleSheet.create({
   container: {
-    display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    gap: 20,
   },
   number: {
     backgroundColor: "white",
     borderRadius: 9999,
     height: 20,
-    marginHorizontal: 8,
     width: 20,
   },
   pressed: {

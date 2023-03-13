@@ -13,10 +13,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: `rgb(${sky500})`,
     borderRadius: 9999,
-    display: "flex",
     height: 80,
     justifyContent: "center",
-    margin: 10,
     width: 80,
   },
   text: {
