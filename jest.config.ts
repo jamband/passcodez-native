@@ -1,6 +1,6 @@
 import type { Config } from "jest";
 
-const config: Config = {
+export default {
   moduleFileExtensions: ["js", "json", "ts", "tsx"],
   roots: ["<rootDir>/src/"],
   testRegex: ".test.(ts|tsx)$",
@@ -11,6 +11,4 @@ const config: Config = {
   moduleNameMapper: { "^~/(.*)$": "<rootDir>/src/$1" },
   coveragePathIgnorePatterns: [],
   coverageDirectory: "<rootDir>/coverage",
-};
-
-export default config;
+} satisfies Config;
