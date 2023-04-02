@@ -8,6 +8,7 @@
     "preview:ios": "eas build -p ios --profile preview",
     "test": "jest -i",
     "test:cov": "jest -i --coverage",
+    "typecheck": "tsc",
     "lint": "eslint .",
     "format": "prettier --check .",
     "clear": "node scripts/clear.mjs",
