@@ -4,7 +4,6 @@
     "types": ["jest", "react-native"],
     "baseUrl": ".",
     "paths": { "~/*": ["src/*"] },
-    "jsx": "react-jsx",
-    "importsNotUsedAsValues": "error"
+    "jsx": "react-jsx"
   }
 }
