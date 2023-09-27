@@ -7,8 +7,8 @@ test("generatePasscode", () => {
 });
 
 test("generateInvalidPasscode", () => {
-  expect(() => generateInvalidPasscode("0".repeat(3))).toThrowError();
-  expect(() => generateInvalidPasscode("0".repeat(7))).toThrowError();
+  expect(() => generateInvalidPasscode("0".repeat(3))).toThrow();
+  expect(() => generateInvalidPasscode("0".repeat(7))).toThrow();
 
   expect(generateInvalidPasscode("0000")).toBe("0001");
   expect(generateInvalidPasscode("0999")).toBe("1000");
