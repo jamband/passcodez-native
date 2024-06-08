@@ -6,13 +6,13 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "@react-native",
     "prettier"
   ],
-  "ignorePatterns": ["coverage"],
+  "ignorePatterns": [
+    "babel.config.js",
+    "coverage"
+  ],
   "rules": {
     "@typescript-eslint/consistent-type-imports": "error",
     "react/react-in-jsx-scope": "off"

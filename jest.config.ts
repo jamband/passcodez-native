@@ -5,6 +5,9 @@ export default {
   roots: ["<rootDir>/src/"],
   testRegex: ".test.(ts|tsx)$",
   transform: { ".(ts|tsx)$": "ts-jest" },
+  transformIgnorePatterns: [
+    "node_modules/.pnpm/(?!@react-native|react-native)",
+  ],
   collectCoverageFrom: ["**/*.(ts|tsx)"],
   preset: "react-native",
   setupFilesAfterEnv: ["<rootDir>/jest.config.ts"],
