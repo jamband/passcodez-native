@@ -7,6 +7,7 @@ export const Component: React.FC<_Props> = (props) => (
   <View style={styles.container}>
     {[...Array(PASSCODE_LENGTH)].map((_, index) => (
       <View
+        // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
         key={index}
         style={[
           styles.number,
