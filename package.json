@@ -15,6 +15,7 @@
   "dependencies": {
     "@babel/core": "7.26.9",
     "@babel/preset-env": "7.26.9",
+    "@babel/runtime": "7.26.9",
     "@biomejs/biome": "1.9.4",
     "@testing-library/react-native": "12.5.1",
     "@tsconfig/react-native": "3.0.5",
