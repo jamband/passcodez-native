@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     backgroundColor: `rgb(${sky600})`,
-    flex: 1,
+    flex: 1.5,
     flexDirection: "row",
     justifyContent: "center",
   },

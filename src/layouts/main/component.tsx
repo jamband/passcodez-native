@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     backgroundColor: `rgb(${state50})`,
-    flex: 9,
+    flex: 8.5,
     justifyContent: "center",
     padding: 20,
   },
