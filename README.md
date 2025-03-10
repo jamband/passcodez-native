@@ -5,7 +5,7 @@ test repository for react native and expo.
 ## Tools
 
 - Language & Library: TypeScript, React Native, Expo
-- Lint & Formatter: ESLint, Prettier
+- Lint & Formatter: Biome
 - Testing: React Native Testing Library
 
 ## Usage
