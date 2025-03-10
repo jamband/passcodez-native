@@ -1,5 +1,5 @@
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
-import { sky300, sky50, sky500, sky600 } from "~/styles/color";
+import { sky50, sky300, sky500, sky600 } from "~/styles/color";
 import type { _Props } from "./types";
 
 export const Component: React.FC<_Props> = (props) => (
