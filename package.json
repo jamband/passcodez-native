@@ -6,7 +6,7 @@
   "scripts": {
     "start": "expo start",
     "preview:ios": "eas build -p ios --profile preview",
-    "check": "tsc && biome check .",
+    "check": "tsc && biome check",
     "test": "jest -i",
     "test:cov": "jest -i --coverage",
     "clear": "node scripts/clear.mjs",
@@ -16,7 +16,7 @@
     "@babel/core": "7.27.4",
     "@babel/preset-env": "7.27.2",
     "@babel/runtime": "7.27.6",
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.4",
     "@testing-library/react-native": "13.2.0",
     "@tsconfig/react-native": "3.0.5",
     "@types/jest": "29.5.14",
@@ -35,6 +35,8 @@
     "typescript": "5.8.3"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@biomejs/biome"]
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
   }
 }
