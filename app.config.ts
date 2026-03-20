@@ -5,7 +5,6 @@ dotenv.config();
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  newArchEnabled: true,
   name: "Passcodez",
   slug: "passcodez",
   version: "0.1.0",
