@@ -1,9 +1,8 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",
+  "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "types": ["jest", "react-native"],
-    "baseUrl": ".",
-    "paths": { "~/*": ["src/*"] },
-    "jsx": "react-jsx"
+    "strict": true,
+    "types": ["jest"],
+    "paths": { "~/*": ["./src/*"] }
   }
 }

@@ -11,11 +11,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   orientation: "portrait",
   icon: "./src/assets/icon.png",
   userInterfaceStyle: "light",
-  splash: {
-    image: "./src/assets/splash.png",
-    resizeMode: "contain",
-    backgroundColor: "#13111a",
-  },
   updates: {
     fallbackToCacheTimeout: 0,
   },
@@ -38,4 +33,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       projectId: process.env.EAS_PROJECT_ID,
     },
   },
+  plugins: [
+    [
+      "expo-splash-screen",
+      {
+        image: "./src/assets/splash.png",
+        resizeMode: "contain",
+        backgroundColor: "#13111a",
+      },
+    ],
+  ],
 });
