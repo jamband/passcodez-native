@@ -1,21 +1,21 @@
 import { act, renderHook } from "@testing-library/react-native";
 import { useStep } from ".";
 
-test("initialState", () => {
-  const { result } = renderHook(useStep);
+test("initialState", async () => {
+  const { result } = await renderHook(useStep);
   expect(result.current.state).toBe("first");
 });
 
-test("set", () => {
-  const { result } = renderHook(useStep);
+test("set", async () => {
+  const { result } = await renderHook(useStep);
   expect(result.current.state).toBe("first");
 
-  act(() => result.current.set("try"));
+  await act(() => result.current.set("try"));
   expect(result.current.state).toBe("try");
 
-  act(() => result.current.set("finish"));
+  await act(() => result.current.set("finish"));
   expect(result.current.state).toBe("finish");
 
-  act(() => result.current.set("first"));
+  await act(() => result.current.set("first"));
   expect(result.current.state).toBe("first");
 });
