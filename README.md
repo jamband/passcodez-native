@@ -15,8 +15,7 @@ You can check the operation on local environment.
 when local development environment:
 
 - requirements:
-  - Expo Go (iOS / Android)
-  - XCode iOS Simulator (option)
+  - XCode iOS Simulator
   - pnpm
 
 ```
@@ -24,7 +23,7 @@ cd /path/to/somewhere
 git clone git@github.com:jamband/passcodez-native.git
 cd passcodez-native
 pnpm i
-pnpm start
+pnpm dev:ios
 ```
 
 when local preview environment:
