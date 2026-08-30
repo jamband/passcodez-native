@@ -1,5 +1,6 @@
 /.expo
 /coverage
 /dist
+/ios
 /node_modules
 .env
