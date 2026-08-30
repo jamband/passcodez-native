@@ -1,4 +1,5 @@
-import { SafeAreaView, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { sky100, sky500, sky600 } from "~/styles/color";
 import type { _Props } from "./types";
 
@@ -20,7 +21,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     backgroundColor: `rgb(${sky600})`,
-    flex: 1.5,
+    flex: 1.7,
     flexDirection: "row",
     justifyContent: "center",
   },
